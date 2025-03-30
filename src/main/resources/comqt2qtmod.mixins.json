@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.qtmod.qt2.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "QtModMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

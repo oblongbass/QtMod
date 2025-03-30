@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "comqt2qtmod",
+	"version": "${version}",
+	"name": "QtMod",
+	"description": "测试版本",
+	"authors": [
+		"QT"
+	],
+	"contact": {
+		"homepage": "1",
+		"sources": "1"
+	},
+	"license": "MIT",
+	"icon": "assets/comqt2qtmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.qtmod.qt2.Comqt2qtmod"
+		],
+		"fabric-datagen": [
+			"com.qtmod.qt2.Comqt2qtmodDataGenerator"
+		],
+		"client": [
+			"com.qtmod.qt2.QtModClient"
+		]
+	},
+	"mixins": [
+		"comqt2qtmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

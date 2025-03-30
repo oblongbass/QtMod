@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PWP",
+    "PPP"
+  ],
+  "key": {
+    "P": { "item": "minecraft:oak_planks" },
+    "W": { "item": "minecraft:paper" }
+  },
+  "result": {
+    "item": "comqt2qtmod:portable_crafting",
+    "count": 1
+  }
+}

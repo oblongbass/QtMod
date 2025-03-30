@@ -3,8 +3,10 @@
 	"package": "com.qtmod.qt2.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-      "QtModMixin"
+		"ReverseKnockbackMixin"  // 确保只列出实际存在的mixin类
 	],
+	"client": [],
+	"server": [],
 	"injectors": {
 		"defaultRequire": 1
 	}
